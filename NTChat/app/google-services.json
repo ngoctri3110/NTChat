@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "66527069883",
+    "project_id": "ntchat-7cd0b",
+    "storage_bucket": "ntchat-7cd0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66527069883:android:3b5e3ec6cc07a4a46f8b9e",
+        "android_client_info": {
+          "package_name": "com.example.ntchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66527069883-i5r6v9nm5ds913rekiu2dkef0639d8ur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyrRxJw5YZSU9e1a2zBrUhLiZYJcOy13U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66527069883-i5r6v9nm5ds913rekiu2dkef0639d8ur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

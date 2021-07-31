@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/users_single_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/default_avatar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/user_single_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:text="Display Name"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/users_single_image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/user_single_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:text="User default Status"
+        app:layout_constraintStart_toEndOf="@+id/users_single_image"
+        app:layout_constraintTop_toBottomOf="@+id/user_single_name" />
+
+    <ImageView
+        android:id="@+id/user_single_online_icon"
+        android:layout_width="12dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="169dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/user_single_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hinhonline" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
